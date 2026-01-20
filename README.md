@@ -33,5 +33,8 @@ Este libro facilita el trabajo con estándares internacionales de proyección de
 
 ## 📥 Descarga Directa
 [Haga clic aquí para descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
+
+[Haga clic aquí para descargar Proyecciones con codigo EPSG.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones%20con%20codigo%20EPSG.xlsm)
+
 ---
 **Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datos, GIS, VBA, Proyecciones Cartográficas.
