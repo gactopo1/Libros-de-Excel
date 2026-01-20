@@ -31,5 +31,7 @@ Este libro facilita el trabajo con estándares internacionales de proyección de
 2. Ingrese los datos en las celdas de entrada (generalmente marcadas con colores).
 3. Obtenga los resultados transformados o proyectados automáticamente.
 
+## 📥 Descarga Directa
+[Haga clic aquí para descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
 ---
 **Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datos, GIS, VBA, Proyecciones Cartográficas.
