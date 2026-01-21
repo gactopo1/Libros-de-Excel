@@ -1,11 +1,11 @@
-# Herramientas de Geodesia y Cartografía para Argentina (Excel)
+# Transformar coordenadas geograficas a Gaus Kruger Argentina en Excel
 
 Este repositorio reúne libros de Excel avanzados con Macros (VBA) para el cálculo y transformación de coordenadas, orientados a profesionales de agrimensura, ingeniería y especialistas en GIS.
 
 ---
 
 ## 1. TransCoordArg - Transformación de Coordenadas
-Herramienta diseñada para la conversión precisa de coordenadas dentro del territorio argentino.
+Herramienta diseñada para la conversión precisa de coordenadas dentro del territorio argentino. Posgar04, Posgar07, Campo Inschauspe 69, PASMA, TDF95, Tapi Aike, Chos Malal 1914, Pampa del Castillo, MMN , MMS, Yavi, Carranza, Castelli, 25 de Mayo, Ubajay, Sistemas provinciales
 
 * [cite_start]**Formatos:** Transformación entre coordenadas geográficas y planas (Gauss-Krüger). [cite: 1, 2, 5]
 * [cite_start]**Uso Local:** Parámetros ajustados específicamente para la República Argentina. [cite: 1, 2, 5]
