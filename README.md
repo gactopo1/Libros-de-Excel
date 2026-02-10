@@ -404,24 +404,35 @@ Alaska 27 - Zonas 2 a 9
 Lambert 27 (State Plane of USA)
 Egyseges Orszagos Vetulet
 LEE Conformal of the World in a Triangle
-
 ---
+##3. Transformación de Datum (Bursa-Wolf & Helmert 3D)
+Herramienta avanzada para la estimación y aplicación de parámetros de transformación entre marcos de referencia, utilizando un motor de álgebra lineal desarrollado íntegramente en VBA.
+##Modelos Implementados:
+. Bursa-Wolf (7 Parámetros): Modelo geocéntrico estándar que utiliza 3 traslaciones, 3 rotaciones y 1 factor de escala. Las rotaciones se ejecutan respecto al origen del sistema (Centro de Masas).
+. Helmert / Molodensky-Badekas (10 Parámetros): Modelo de alta precisión para áreas locales. Incluye los 7 parámetros clásicos más las 3 coordenadas del baricentro local como punto de rotación. Esto elimina la correlación entre traslación y rotación, otorgando mayor estabilidad a los parámetros en proyectos de ingeniería.
+Características Técnicas:
+. Motor Autónomo: Incluye funciones propias para inversión de matrices por Gauss-Jordan (InvMatrizGJ), productos matriciales y transposición. No requiere librerías externas.
+. Ajuste por Mínimos Cuadrados: Estimación de parámetros a partir de puntos de control.Cálculo de Residuales: Análisis automático de errores residuales ($V = AX - Y$) para auditar la precisión de cada punto transformado.
+. Convención: Implementa el estándar internacional Position Vector Transformation.
 
 ## ⚠️ Requisitos y Seguridad
 Libros habilitados para macros (`.xlsm`).
 
 1. **Habilitar Contenido:** Al abrir los archivos, debe aceptar el uso de Macros para que las funciones de cálculo se activen.
 2. **Desbloqueo de Windows:** Si el archivo no ejecuta las funciones, haga clic derecho sobre el archivo en su carpeta, vaya a **Propiedades** y marque la casilla **"Desbloquear"**.
-
+3. **Entorno de Programación:** Para ver el código fuente, presione ALT + F11. Los algoritmos matemáticos se encuentran en el Módulo 1.
 ## 🚀 Cómo utilizar
 1. Descargue el repositorio o el archivo específico que necesite.
-2. Ingrese los datos en las celdas de entrada (generalmente marcadas con colores).
-3. Obtenga los resultados transformados o proyectados automáticamente.
-
+2. Para Proyecciones: Ingrese los datos en las celdas de entrada (marcadas en celeste).
+3. Para Transformación de Datum: Ingrese sus puntos de control en la Hoja 1 para calcular los parámetros; luego aplíquelos en la Hoja 2 utilizando el método matricial o lineal.
+4. 
 ## 📥 Descarga Directa
 [Haga clic aquí para descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
 
 [Haga clic aquí para descargar Proyecciones.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones.xlsm)
 
+[Haga clic aquí para descargar Bursa_Wolf](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformación de Datum y calculo de parametros - Bursa-Wolf.xlsm)
+[Haga clic aquí para descargar Helmert/Molodensky-Badecas](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformación de Datum - Helmert 3D y calculo de parametros - Molodensky-Badecas.xlsm)
+
 ---
-**Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datums, GIS, VBA, Proyecciones Cartográficas.
+**Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datums, Bursa-Wolf, Helmert, Molodensky-Badecas, GIS, VBA, Proyecciones Cartográficas.
