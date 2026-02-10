@@ -1,6 +1,6 @@
-# Transformar coordenadas geograficas a Gaus Kruger Argentina en Excel
+# Herramientas geodesicas en Excel
 
-Este repositorio reúne libros de Excel avanzados con Macros (VBA) para el cálculo y transformación de coordenadas, orientados a profesionales de agrimensura, ingeniería y especialistas en GIS.
+Este repositorio reúne libros de Excel con Macros (VBA) para proyeccion y transformación de coordenadas.
 
 ---
 
