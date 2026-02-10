@@ -11,7 +11,7 @@ Herramienta diseñada para la conversión precisa de coordenadas dentro del terr
 **Uso Local:** Parámetros ajustados específicamente para la República Argentina.
 **Macros:** Utiliza código VBA para procesar cálculos matemáticos complejos.
 
-## 2. Proyecciones con código EPSG
+## 2. Proyecciones
 Recopilacion de ecuaciones para la solucion de las siguientes proyecciones. Desarrolladas en excel y programadas en VBA
 Airy
 Aitoff
@@ -421,7 +421,7 @@ Libros habilitados para macros (`.xlsm`).
 ## 📥 Descarga Directa
 [Haga clic aquí para descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
 
-[Haga clic aquí para descargar Proyecciones con codigo EPSG.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones%20con%20codigo%20EPSG.xlsm)
+[Haga clic aquí para descargar Proyecciones.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones.xlsm)
 
 ---
-**Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datos, GIS, VBA, Proyecciones Cartográficas.
+**Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datums, GIS, VBA, Proyecciones Cartográficas.
