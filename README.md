@@ -426,13 +426,13 @@ Libros habilitados para macros (`.xlsm`).
 2. Para Proyecciones: Ingrese los datos en las celdas de entrada (marcadas en celeste).
 3. Para Transformación de Datum: Ingrese sus puntos de control en la Hoja 1 para calcular los parámetros; luego aplíquelos en la Hoja 2 utilizando el método matricial o lineal.
 4. 
-## 📥 Descarga Directa
-[Haga clic aquí para descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
-
-[Haga clic aquí para descargar Proyecciones.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones.xlsm)
-
-[Haga clic aquí para descargar Bursa_Wolf](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformación de Datum y calculo de parametros - Bursa-Wolf.xlsm)
-[Haga clic aquí para descargar Helmert/Molodensky-Badecas](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformación de Datum - Helmert 3D y calculo de parametros - Molodensky-Badecas.xlsm)
-
 ---
+
+## 📥 Descargas Directas
+
+* 📄 **[Descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)**
+* 📄 **[Descargar Proyecciones.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones.xlsm)**
+* 📄 **[Descargar Transformación de Datum (Bursa-Wolf - 7 Parámetros)](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformaci%C3%B3n%20de%20Datum%20y%20calculo%20de%20parametros%20-%20Bursa-Wolf.xlsm)**
+* 📄 **[Descargar Transformación de Datum (Helmert/Molodensky-Badekas - 10 Parámetros)](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformaci%C3%B3n%20de%20Datum%20-%20Helmert%203D%20y%20calculo%20de%20parametros%20-%20Molodensky-Badecas.xlsm)**
+* 
 **Palabras clave:** Excel, Argentina, EPSG, Coordenadas, Geodesia, Agrimensura, Gauss-Krüger, Transformación de Datums, Bursa-Wolf, Helmert, Molodensky-Badecas, GIS, VBA, Proyecciones Cartográficas.
