@@ -4,15 +4,15 @@ Este repositorio reúne libros de Excel con Macros (VBA) para proyeccion y trans
 
 ---
 
-## 1. TransCoordArg - Transformación de Coordenadas
+## 1. TransCoordArg - Transformación de Coordenadas.
 Herramienta diseñada para la conversión precisa de coordenadas dentro del territorio argentino. Posgar04, Posgar07, Campo Inschauspe 69, PASMA, TDF95, Tapi Aike, Chos Malal 1914, Pampa del Castillo, MMN , MMS, Yavi, Carranza, Castelli, 25 de Mayo, Ubajay, Sistemas provinciales
 
 **Formatos:** Transformación entre coordenadas geográficas y planas (Gauss-Krüger).
 **Uso Local:** Parámetros ajustados específicamente para la República Argentina.
 **Macros:** Utiliza código VBA para procesar cálculos matemáticos complejos.
 
-## 2. Proyecciones
-Recopilacion de ecuaciones para la solucion de las siguientes proyecciones. Desarrolladas en excel y programadas en VBA
+## 2. Proyecciones.
+Recopilacion de ecuaciones para la solucion de las siguientes proyecciones. Desarrolladas en excel y programadas en VBA:
 Airy
 Aitoff
 Azimuthal Equidistant  Equatorial
@@ -405,15 +405,15 @@ Lambert 27 (State Plane of USA)
 Egyseges Orszagos Vetulet
 LEE Conformal of the World in a Triangle
 ---
-##3. Transformación de Datum (Bursa-Wolf & Helmert 3D)
+## 3. Transformación de Datum (Bursa-Wolf & Helmert 3D)
 Herramienta avanzada para la estimación y aplicación de parámetros de transformación entre marcos de referencia, utilizando un motor de álgebra lineal desarrollado íntegramente en VBA.
-##Modelos Implementados:
-. Bursa-Wolf (7 Parámetros): Modelo geocéntrico estándar que utiliza 3 traslaciones, 3 rotaciones y 1 factor de escala. Las rotaciones se ejecutan respecto al origen del sistema (Centro de Masas).
-. Helmert / Molodensky-Badekas (10 Parámetros): Modelo de alta precisión para áreas locales. Incluye los 7 parámetros clásicos más las 3 coordenadas del baricentro local como punto de rotación. Esto elimina la correlación entre traslación y rotación, otorgando mayor estabilidad a los parámetros en proyectos de ingeniería.
-Características Técnicas:
-. Motor Autónomo: Incluye funciones propias para inversión de matrices por Gauss-Jordan (InvMatrizGJ), productos matriciales y transposición. No requiere librerías externas.
-. Ajuste por Mínimos Cuadrados: Estimación de parámetros a partir de puntos de control.Cálculo de Residuales: Análisis automático de errores residuales ($V = AX - Y$) para auditar la precisión de cada punto transformado.
-. Convención: Implementa el estándar internacional Position Vector Transformation.
+## Modelos Implementados:
+**. Bursa-Wolf (7 Parámetros):** Modelo geocéntrico estándar que utiliza 3 traslaciones, 3 rotaciones y 1 factor de escala. Las rotaciones se ejecutan respecto al origen del sistema (Centro de Masas).
+**. Helmert / Molodensky-Badekas (10 Parámetros):** Modelo de alta precisión para áreas locales. Incluye los 7 parámetros clásicos más las 3 coordenadas del baricentro local como punto de rotación. Esto elimina la correlación entre traslación y rotación, otorgando mayor estabilidad a los parámetros en proyectos de ingeniería.
+## Características Técnicas:
+**. Motor Autónomo:** Incluye funciones propias para inversión de matrices por Gauss-Jordan (InvMatrizGJ), productos matriciales y transposición. No requiere librerías externas.
+**. Ajuste por Mínimos Cuadrados:** Estimación de parámetros a partir de puntos de control.Cálculo de Residuales: Análisis automático de errores residuales ($V = AX - Y$) para auditar la precisión de cada punto transformado.
+**. Convención:** Implementa el estándar internacional Position Vector Transformation.
 
 ## ⚠️ Requisitos y Seguridad
 Libros habilitados para macros (`.xlsm`).
