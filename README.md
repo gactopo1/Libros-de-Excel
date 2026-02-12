@@ -57,10 +57,11 @@ Recopilación de ecuaciones para la solución de diversas proyecciones cartográ
 
 ---
 
-## 3. Transformación de Datum (Bursa-Wolf & Helmert 3D)
+## 3. Transformación de Datum (Molodensky, Bursa-Wolf & Helmert 3D)
 Herramienta avanzada para la estimación y aplicación de parámetros de transformación entre marcos de referencia, utilizando un motor de álgebra lineal desarrollado íntegramente en VBA.
 
 ### Modelos Implementados
+* **Molodensky & Molodensky Reducido (3 Parámetros):** Implementación de las fórmulas estándar de Molodensky para transformar coordenadas geodésicas entre datums. El modelo **Reducido** permite realizar la transformación omitiendo las variaciones en la altura elipsoidal, siendo ideal cuando solo se dispone de coordenadas 2D o los parámetros de los elipsoides son cercanos.
 * **Bursa-Wolf (7 Parámetros):** Modelo geocéntrico estándar que utiliza 3 traslaciones, 3 rotaciones y 1 factor de escala. Las rotaciones se ejecutan respecto al origen del sistema (Centro de Masas).
 * **Helmert / Molodensky-Badekas (10 Parámetros):** Modelo de alta precisión para áreas locales. Incluye los 7 parámetros clásicos más las 3 coordenadas del baricentro local como punto de rotación. Esto elimina la correlación entre traslación y rotación, otorgando mayor estabilidad a los parámetros en proyectos de ingeniería.
 
@@ -92,6 +93,7 @@ Los archivos son libros habilitados para macros (`.xlsm`).
 
 * 📄 [Descargar TransCoordArg.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/TransCoordArg.xlsm)
 * 📄 [Descargar Proyecciones.xlsm](https://github.com/gactopo1/Libros-de-Excel/raw/main/Proyecciones.xlsm)
+* 📄 [Descargar Transformación de Datum (Molodensky & Molodensky Reducido)](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformaci%C3%B3n%20de%20Datum%20por%20Molodensky.xlsm)
 * 📄 [Descargar Transformación de Datum (Bursa-Wolf - 7 Parámetros)](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformaci%C3%B3n%20de%20Datum%20y%20calculo%20de%20parametros%20-%20Bursa-Wolf.xlsm)
 * 📄 [Descargar Transformación de Datum (Helmert/Molodensky-Badekas - 10 Parámetros)](https://github.com/gactopo1/Libros-de-Excel/raw/main/Transformaci%C3%B3n%20de%20Datum%20-%20Helmert%203D%20y%20calculo%20de%20parametros%20-%20Molodensky-Badecas.xlsm)
 
